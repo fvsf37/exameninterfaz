@@ -1,23 +1,16 @@
-# Node.js
+# Node.js dependencies
 node_modules/
-npm-debug.log
-yarn-error.log
 package-lock.json
 
 # Logs
-logs
-*.log
-logs/**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Entorno
-.env
-
-# Directorios generados
-coverage/
-.DS_Store
-Thumbs.db
-
-# Archivos del editor
+# Editor/IDE
 .vscode/
 .idea/
-*.swp
+.DS_Store
+
+# Ambiente de desarrollo
+.env
