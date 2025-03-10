@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           marker.setIcon(iconoResaltado);
           setTimeout(() => {
             marker.setIcon(iconoNormal);
-          }, 3000); // ⏳ Resaltado por 3 segundos
+          }, 10000);
 
           mostrarModal(nombre, descripcion);
         });

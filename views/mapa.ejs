@@ -30,10 +30,26 @@
         max-height: 90vh;
         overflow-y: auto;
       }
+
+      .titulo-con-escudo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .titulo-con-escudo img {
+        width: 60px;
+        height: auto;
+      }
     </style>
   </head>
   <body class="container mt-4">
-    <h1 class="text-center mb-4">Mapa de Monumentos de Málaga</h1>
+    <!-- Título con el escudo -->
+    <div class="text-center mb-4 titulo-con-escudo">
+      <img src="/images/Escudo Ciudad de Malaga.png" alt="Escudo de Málaga" />
+      <h1 class="mb-0">Mapa de Monumentos de Málaga</h1>
+    </div>
 
     <div class="row">
       <div class="col-md-4">
